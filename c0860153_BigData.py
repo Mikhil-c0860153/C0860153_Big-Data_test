@@ -217,7 +217,7 @@ def train_model(env, model, total_episodes=100):
 
 
 # model initialization
-H = 200  # number of hidden layer neurons
+H = 1600  # number of hidden layer neurons
 D = 80 * 80  # input dimensionality: 80x80 grid
 model = {}
 model['W1'] = np.random.randn(H, D) / np.sqrt(D)  # "Xavier" initialization
